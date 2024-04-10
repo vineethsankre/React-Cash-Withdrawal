@@ -54,33 +54,42 @@
 .balance-text {
   color: #585076;
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
 }
 .balance-amount {
   color: #d4d2db;
   font-family: 'Roboto';
   font-size: 24px;
   font-weight: 500;
+  margin:0;
 }
 .currency {
   color: #585076;
   font-family: 'Roboto';
   font-size: 12px;
+  font-weight: 500;
 }
 
 .withdraw-text {
   color: #d4d2db;
   font-family: 'Roboto';
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
+  margin-top: 16px;
 }
 .choose-sum {
   color: #585076;
   font-family: 'Roboto';
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
 }
 
 .denomination-container {
+  padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
