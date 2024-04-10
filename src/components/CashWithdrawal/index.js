@@ -26,10 +26,11 @@ class CashWithdrawal extends Component {
           </div>
           <div className="balance-container">
             <p className="balance-text">Your Balance</p>
-            <div>
-              <p className="balance-amount">{balance}</p>
-              <p className="currency">In Rupees</p>
-            </div>
+            <p className="balance-amount">
+              {balance}
+              <br />
+              <span className="currency">In Rupees</span>
+            </p>
           </div>
           <p className="withdraw-text">Withdraw</p>
           <p className="choose-sum">CHOOSE SUM (IN RUPEES)</p>
