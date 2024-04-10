@@ -18,38 +18,3 @@
   padding-bottom: 4px;
   width: 100%;
 }
-
-@media screen and (min-width: 768px) {
-  .withdrawal-container {
-    width: 50%;
-    max-width: 422px;
-    padding: 48px 36px 16px 36px;
-  }
-  .profile-img {
-    height: 64px;
-    width: 64px;
-    border-radius: 32px;
-  }
-  .customer-name {
-    font-size: 20px;
-    margin-left: 16px;
-  }
-  .balance-text {
-    font-size: 20px;
-    margin-top: 8px;
-  }
-  .balance-amount {
-    font-size: 32px;
-  }
-  .currency{
-    font-size: 12px;
-  }
-  .withdraw-text {
-    font-size: 24px;
-    margin-top: 24px;
-  }
-  .choose-sum {
-    font-size: 16px;
-    margin-bottom: 24px;
-  }
-}
