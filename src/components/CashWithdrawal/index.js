@@ -19,7 +19,7 @@ class CashWithdrawal extends Component {
       <div className="app-container">
         <div className="withdrawal-container">
           <div className="customer-details-container">
-            <div className="profile-img">
+            <div className="dp-container">
               <p className="initial">{initial}</p>
             </div>
             <h1 className="customer-name">{name}</h1>
