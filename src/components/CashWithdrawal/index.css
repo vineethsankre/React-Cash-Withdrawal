@@ -1,0 +1,87 @@
+.app-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdrawal-container {
+  background-color: #150b3e;
+  border-radius: 15px;
+  width: 70%;
+  max-width: 650px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-img {
+  background-color: #c7d2fe;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.customer-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.balance-amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.currency {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.denomination-container {
+  display: flex;
+  flex-wrap: wrap;
+}
