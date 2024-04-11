@@ -1,4 +1,4 @@
-In this project, let's build a **Cash Withdrawal** app by applying the concepts we have learned till now.
+In this project, let's build a React **Cash Withdrawal** app where balance is updated by deducting the amount while pressing on denomination buttons.
 
 ### Refer to the image below:
 
